@@ -170,13 +170,37 @@ Windows Key --> type Windows Features --> select the first entry Turn Windows Fe
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/21ac844b-7ea8-4c94-a2d7-202a68068a3f)
 - Continue setting up osTicket in the browser
   - Name: Helpdesk
-  - Default email: (email you need to login into the portal) 
+  - Default email: (email you need to login into the portal)
+
+<hr>
+<br>
+<br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/9f359ab9-6a01-4dd1-9709-6d490d45f8eb)
-
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/84735928-e4ee-4445-aaaf-58bb21cabc1c)
+- Install Heidi SQL
+  - https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit?usp=drive_link
+- Open Heidi SQL
+- Create new session:
+  - User: root
+  - Password: (password of choice)
+- Connect to the session
+- Create a database called "osTicket"   
+
+<hr>
+<br>
+<br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/d49bfbf4-239c-4191-b4a9-2f1b6031ac47)
+- Setup up osTicket in the browser using the credentials created in Heidi SQL
+  - MySQL Database: osTicket
+  - MySQL Username: root
+  - MySQL Password: (password chosen from Heidi SQL)
+  - Click Install
+
+<hr>
+<br>
+<br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/a1763e07-8296-4cb8-9221-b2791f79229c)
 
