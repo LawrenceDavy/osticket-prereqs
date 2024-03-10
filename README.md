@@ -52,7 +52,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br>
 Once logged in, navigate to Windows Features to install IIS, CGI and HTTPS Features:
 Windows Key --> type Windows Features --> select the first entry Turn Windows Features On or Off.
-<br>
  - CGI and Common HTTP Features:
    - World Wide Web Services -> Application Development Features
       - CGI
@@ -66,7 +65,6 @@ Windows Key --> type Windows Features --> select the first entry Turn Windows Fe
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/fc33b8d1-c30c-4bde-851a-55ab886976e9)
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/4a54be5c-4d86-474a-8041-ffffdaf4f97c)
-<br>
 - Install PHP Manager for IIS and Rewrite Module.
   - https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=drive_link
   - https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=drive_link
@@ -76,51 +74,44 @@ Windows Key --> type Windows Features --> select the first entry Turn Windows Fe
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/a3c468e4-f691-4a93-8d08-ec3997bfd04d)
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/50d3fe60-948d-42fc-bfe2-1d799de739b8)
-<br>
-Download the PHP zip file.
-<br>
-https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view?usp=drive_link
-<br>
-Create the directory C:\PHP. This is were we will extract our PHP download into.
+- Download the PHP zip file.
+  - https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view?usp=drive_link
+- Create the directory C:\PHP. This is were we will extract our PHP download into.
 
 <br>
 <br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/4a320f84-8ae8-49c2-abe9-2c4dd3300e6c)
-<br>
-Install Microsoft VC Redist(x86)
-<br>
-https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=drive_link
+- Install Microsoft VC Redist(x86)
+  - https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=drive_link
 
 <br>
 <br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/6a18a747-36c6-41a1-9bdd-7e546865b5ad)
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/c8e94a5b-6d18-4a18-8da1-adb87bf467b7)
-<br>
-Install mySQL server with typical setup.
-Launch Configuration Wizard after install and use standard configuration.
-When prompted, enter a password that you can remember.
+- Install mySQL server with typical setup.
+- Launch Configuration Wizard after install and use standard configuration.
+- When prompted, enter a password that you can remember.
 
 <br>
 <br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/44887438-ed85-4572-8fbf-dd6bfb852fcc)
-Open IIS as an administrator.
-Register PHP from within IIS.
-Reload IIS (Open IIS, Stop and Start the server)
+- Open IIS as an administrator.
+- Register PHP from within IIS.
+- Reload IIS (Open IIS, Stop and Start the server)
 
 <br>
 <br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/7c18fba0-ad72-431e-8fd1-8edefa649bb9)
 <br>
-Download osTicket
-https://drive.google.com/file/d/1VeVXKlzHDRjeaVUL99ptq7qYbrbXdFxJ/view?usp=drive_link
-<br>
-Extract and copy “upload” folder to c:\inetpub\wwwroot
-Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
-Reload IIS (Open IIS, Stop and Start the server)
+- Download osTicket
+  - https://drive.google.com/file/d/1VeVXKlzHDRjeaVUL99ptq7qYbrbXdFxJ/view?usp=drive_link
+- Extract and copy “upload” folder to c:\inetpub\wwwroot
+- Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+- Reload IIS (Open IIS, Stop and Start the server)
 
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/feec24bb-45b7-4cd5-9b5d-cc1fd007c935)
