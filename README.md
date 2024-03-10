@@ -125,18 +125,52 @@ Windows Key --> type Windows Features --> select the first entry Turn Windows Fe
   <br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/feec24bb-45b7-4cd5-9b5d-cc1fd007c935)
-
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/bd38aef3-b0ba-4169-8542-f6838ca56499)
+- Check to see if the site was added correctly
+  - Go to sites --> Default Web Site
+    - click "Browse *:80" 
+
+<hr>
+<br>
+<br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/5565df9c-65c6-46cc-aea9-1b4a3ea05009)
+- Enable the following extensions
+  - IIS --> sites --> Default Web Site --> PHP Manager
+    - php_imap.dll
+    - php_intl.dll
+    - php_opcache.dll
+ - Refresh the osTicket Default Web site
+   
+<hr>
+<br>
+<br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/6110a91e-c596-4a4c-bdce-fe5390bc17dc)
+- Rename: ost-config.php
+  - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+  - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+<hr>
+<br>
+<br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/8a9016c5-8c80-4faa-af51-20087a658f7b)
-
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/13829d01-b41b-4c0d-b650-4646bac26344)
+- Assign Permissions to ost-config.php
+  - Disable inhertiance
+    - Remove All
+  - New Permissions
+    - Everyone --> All
+
+<hr>
+<br>
+<br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/21ac844b-7ea8-4c94-a2d7-202a68068a3f)
+- Continue setting up osTicket in the browser
+  - Name: Helpdesk
+  - Default email: (email you need to login into the portal) 
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/9f359ab9-6a01-4dd1-9709-6d490d45f8eb)
 
