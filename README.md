@@ -221,7 +221,7 @@ Windows Key --> type Windows Features --> select the first entry Turn Windows Fe
 <br>
 <br>
 
-Continue to the <a href="https://github.com/LawrenceDavy/post-install-config">Next Page</a> for Post-Installation Configuration
+Continue to the <a href="https://github.com/LawrenceDavy/post-install-config">Part 2</a> for Post-Installation Configuration
  
 
 
