@@ -33,28 +33,31 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/432fc1e6-a32b-4a43-9e00-7e0a29631067)
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/73947bf3-7a62-46ed-82c8-dd646c82d462)
-First we need to create a resource group and virtual machine(VM) to host our osTicket software. A Virtual Network (Vnet) will be auto-created while the VM is being made. Remember to save/write down the username and password you need to enter during setup. We will need these credentials to log into our Windows 10 machine. Since osTicket does not require alot of resources in order for it to run effectively we will be using a standard ssd drive with 2 virtual cpu's and 8GB of ram. The operating system of choice was Windows 10.
+- First we need to create a resource group and virtual machine(VM) to host our osTicket software. A Virtual Network (Vnet) will be auto-created while the VM is being made.
+- Remember to save/write down the username and password you need to enter during setup. We will need these credentials to log into our Windows 10 machine.
+- Since osTicket does not require alot of resources in order for it to run effectively we will be using a standard ssd drive with 2 virtual cpu's and 8GB of ram.
+- The operating system of choice was Windows 10.
 
 <br>
 <br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/84c19029-d978-426f-ac33-c61fdb401fa0)
-Login into the server using Windows Remote Desktop using the public IPv4 that was given when the virtual machine was created. Enter the credentials you chose when setting up the VM.
+- Login into the server using Windows Remote Desktop using the public IPv4 that was given when the virtual machine was created.
+- Enter the credentials you chose when setting up the VM.
 
 <br>
 <br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/6bac743e-9699-4135-8a45-1c2cd92bc5ba)
-<br>
-Once logged in, navigate to Windows Features to install IIS, CGI and HTTPS Features:
-Windows Key --> type Windows Features --> select the first entry Turn Windows Features On or Off.
-- CGI and Common HTTP Features
-  - World Wide Web Services -> Application Development Features ->
+- Once logged in, navigate to Windows Features to install IIS, CGI and HTTPS Features:
+ - Windows Key --> type Windows Features --> select the first entry Turn Windows Features On or Off.
+  - CGI and Common HTTP Features
+   - World Wide Web Services -> Application Development Features ->
     - [X] CGI
     - [X] Common HTTP Features
-- IIS Management Console
-  - Internet Information Services -> Web Management Tools -> IIS Management Console
-	  - [X] IIS Management Console
+   - IIS Management Console
+    - Internet Information Services -> Web Management Tools -> IIS Management Console
+     - [X] IIS Management Console
 
 <br>
 <br>
@@ -104,12 +107,20 @@ When prompted, enter a password that you can remember.
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/44887438-ed85-4572-8fbf-dd6bfb852fcc)
 Open IIS as an administrator.
 Register PHP from within IIS.
-Reload IIS --> Open IIS, Stop and Start the server.
+Reload IIS (Open IIS, Stop and Start the server)
 
 <br>
 <br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/7c18fba0-ad72-431e-8fd1-8edefa649bb9)
+<br>
+Download osTicket
+https://drive.google.com/file/d/1VeVXKlzHDRjeaVUL99ptq7qYbrbXdFxJ/view?usp=drive_link
+<br>
+Extract and copy “upload” folder to c:\inetpub\wwwroot
+Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+Reload IIS (Open IIS, Stop and Start the server)
+
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/feec24bb-45b7-4cd5-9b5d-cc1fd007c935)
 
