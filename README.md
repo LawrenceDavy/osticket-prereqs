@@ -49,15 +49,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/6bac743e-9699-4135-8a45-1c2cd92bc5ba)
+<br>
 Once logged in, navigate to Windows Features to install IIS, CGI and HTTPS Features:
- - Windows Key --> type Windows Features --> select the first entry Turn Windows Features On or Off.
-  - CGI and Common HTTP Features
-   - World Wide Web Services -> Application Development Features ->
-    - [X] CGI
-    - [X] Common HTTP Features
-   - IIS Management Console
-    - Internet Information Services -> Web Management Tools -> IIS Management Console
-     - [X] IIS Management Console
+Windows Key --> type Windows Features --> select the first entry Turn Windows Features On or Off.
+CGI and Common HTTP Features
+ - World Wide Web Services -> Application Development Features ->
+  - [X] CGI
+  - [X] Common HTTP Features
+IIS Management Console
+  - Internet Information Services -> Web Management Tools -> IIS Management Console
+   - [X] IIS Management Console
 
 <br>
 <br>
