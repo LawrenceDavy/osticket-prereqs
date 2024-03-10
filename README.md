@@ -92,16 +92,22 @@ https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=drive
 <br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/6a18a747-36c6-41a1-9bdd-7e546865b5ad)
+![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/c8e94a5b-6d18-4a18-8da1-adb87bf467b7)
+<br>
 Install mySQL server with typical setup.
 Launch Configuration Wizard after install and use standard configuration.
-Enter a password that you can remember.
+When prompted, enter a password that you can remember.
 
 <br>
 <br>
-
-![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/c8e94a5b-6d18-4a18-8da1-adb87bf467b7)
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/44887438-ed85-4572-8fbf-dd6bfb852fcc)
+Open IIS as an administrator.
+Register PHP from within IIS.
+Reload IIS --> Open IIS, Stop and Start the server.
+
+<br>
+<br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/7c18fba0-ad72-431e-8fd1-8edefa649bb9)
 
