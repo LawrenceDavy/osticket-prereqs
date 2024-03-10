@@ -196,14 +196,32 @@ Windows Key --> type Windows Features --> select the first entry Turn Windows Fe
   - MySQL Database: osTicket
   - MySQL Username: root
   - MySQL Password: (password chosen from Heidi SQL)
-  - Click Install
+  - Click "Install"
 
 <hr>
 <br>
 <br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/a1763e07-8296-4cb8-9221-b2791f79229c)
+- Check to see if osTicket is installed correctly
+  - Admin login: http://localhost/osTicket/scp/login.php
+  - End Users login: http://localhost/osTicket/
+ 
+<hr>
+<br>
+<br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/cef1a172-a88e-406e-a4ff-57f648d814d7)
-
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/4cc67f2b-c01c-440f-8f64-4bf15a20c5ab)
+- Clean up
+  - Delete: C:\inetpub\wwwroot\osTicket\setup
+  - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+<hr>
+<br>
+<br>
+
+Continue to the <a href="https://github.com/LawrenceDavy/post-install-config">Next Page</a> for Post-Installation Configuration
+ 
+
+
