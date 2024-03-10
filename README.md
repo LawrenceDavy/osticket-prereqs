@@ -32,8 +32,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/432fc1e6-a32b-4a43-9e00-7e0a29631067)
-
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/73947bf3-7a62-46ed-82c8-dd646c82d462)
+First we need to create a resource group and virtual machine to host our osTicket software. Since osTicket does not require alot of resources in order for it to run effectively I decided to use a standard ssd drive with 2 cpu cores and 8GB of ram. The operating system of choice was Windows 10.
+
+<br>
+<br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/84c19029-d978-426f-ac33-c61fdb401fa0)
 
