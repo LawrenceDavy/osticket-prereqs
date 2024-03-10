@@ -53,14 +53,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 Once logged in, navigate to Windows Features to install IIS, CGI and HTTPS Features:
 Windows Key --> type Windows Features --> select the first entry Turn Windows Features On or Off.
 <br>
-CGI and Common HTTP Features:
- - World Wide Web Services -> Application Development Features
-   - CGI
-   - Common HTTP Features
-<br>
-IIS Management Console:
-  - Internet Information Services -> Web Management Tools -> IIS Management Console
-  - IIS Management Console
+ - CGI and Common HTTP Features:
+   - World Wide Web Services -> Application Development Features
+      - CGI
+      - Common HTTP Features
+ - IIS Management Console:
+   - Internet Information Services -> Web Management Tools -> IIS Management Console
+   - IIS Management Console
 
 <br>
 <br>
@@ -68,10 +67,9 @@ IIS Management Console:
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/fc33b8d1-c30c-4bde-851a-55ab886976e9)
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/4a54be5c-4d86-474a-8041-ffffdaf4f97c)
 <br>
-Install PHP Manager for IIS and Rewrite Module.
-<br>
-https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=drive_link
-https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=drive_link
+- Install PHP Manager for IIS and Rewrite Module.
+  - https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=drive_link
+  - https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=drive_link
 
 <br>
 <br>
