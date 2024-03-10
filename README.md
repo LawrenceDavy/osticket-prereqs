@@ -38,6 +38,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Since osTicket does not require alot of resources in order for it to run effectively we will be using a standard ssd drive with 2 virtual cpu's and 8GB of ram.
 - The operating system of choice was Windows 10.
 
+<hr>
 <br>
 <br>
 
@@ -45,6 +46,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Login into the server using Windows Remote Desktop using the public IPv4 that was given when the virtual machine was created.
 - Enter the credentials you chose when setting up the VM.
 
+<hr>
 <br>
 <br>
 
@@ -60,6 +62,7 @@ Windows Key --> type Windows Features --> select the first entry Turn Windows Fe
    - Internet Information Services -> Web Management Tools -> IIS Management Console
    - IIS Management Console
 
+<hr>
 <br>
 <br>
 
@@ -69,6 +72,7 @@ Windows Key --> type Windows Features --> select the first entry Turn Windows Fe
   - https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=drive_link
   - https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=drive_link
 
+<hr>
 <br>
 <br>
 
@@ -78,6 +82,7 @@ Windows Key --> type Windows Features --> select the first entry Turn Windows Fe
   - https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view?usp=drive_link
 - Create the directory C:\PHP. This is were we will extract our PHP download into.
 
+<hr>
 <br>
 <br>
 
@@ -85,6 +90,7 @@ Windows Key --> type Windows Features --> select the first entry Turn Windows Fe
 - Install Microsoft VC Redist(x86)
   - https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=drive_link
 
+<hr>
 <br>
 <br>
 
@@ -94,6 +100,7 @@ Windows Key --> type Windows Features --> select the first entry Turn Windows Fe
 - Launch Configuration Wizard after install and use standard configuration.
 - When prompted, enter a password that you can remember.
 
+<hr>
 <br>
 <br>
 
@@ -102,17 +109,20 @@ Windows Key --> type Windows Features --> select the first entry Turn Windows Fe
 - Register PHP from within IIS.
 - Reload IIS (Open IIS, Stop and Start the server)
 
+<hr>
 <br>
 <br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/7c18fba0-ad72-431e-8fd1-8edefa649bb9)
-<br>
 - Download osTicket
   - https://drive.google.com/file/d/1VeVXKlzHDRjeaVUL99ptq7qYbrbXdFxJ/view?usp=drive_link
 - Extract and copy “upload” folder to c:\inetpub\wwwroot
 - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 - Reload IIS (Open IIS, Stop and Start the server)
 
+  <hr>
+  <br>
+  <br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/feec24bb-45b7-4cd5-9b5d-cc1fd007c935)
 
