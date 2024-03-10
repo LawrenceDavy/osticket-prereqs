@@ -33,20 +33,47 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/432fc1e6-a32b-4a43-9e00-7e0a29631067)
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/73947bf3-7a62-46ed-82c8-dd646c82d462)
-First we need to create a resource group and virtual machine to host our osTicket software. Since osTicket does not require alot of resources in order for it to run effectively I decided to use a standard ssd drive with 2 cpu cores and 8GB of ram. The operating system of choice was Windows 10.
+First we need to create a resource group and virtual machine(VM) to host our osTicket software. A Virtual Network (Vnet) will be auto-created while the VM is being made. Remember to save/write down the username and password you need to enter during setup. We will need these credentials to log into our Windows 10 machine. Since osTicket does not require alot of resources in order for it to run effectively we will be using a standard ssd drive with 2 virtual cpu's and 8GB of ram. The operating system of choice was Windows 10.
 
 <br>
 <br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/84c19029-d978-426f-ac33-c61fdb401fa0)
+Login into the server using Windows Remote Desktop using the public IPv4 that was given when the virtual machine was created. Enter the credentials you chose when setting up the VM.
+
+<br>
+<br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/6bac743e-9699-4135-8a45-1c2cd92bc5ba)
+<br>
+Once logged in, navigate to Windows Features to install IIS, CGI and HTTPS Features:
+Windows Key --> type Windows Features --> select the first entry Turn Windows Features On or Off.
+- CGI and Common HTTP Features
+  - World Wide Web Services -> Application Development Features ->
+    - [X] CGI
+    - [X] Common HTTP Features
+- IIS Management Console
+  - Internet Information Services -> Web Management Tools -> IIS Management Console
+	  - [X] IIS Management Console
+
+<br>
+<br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/fc33b8d1-c30c-4bde-851a-55ab886976e9)
-
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/4a54be5c-4d86-474a-8041-ffffdaf4f97c)
+<br>
+Install PHP Manager for IIS and Rewrite Module
+<br>
+https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=drive_link
+https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=drive_link
+
+<br>
+<br>
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/a3c468e4-f691-4a93-8d08-ec3997bfd04d)
+Download the PHP zip file
+Create the directory C:\PHP. This is were we will extract our PHP download into.
+
 
 ![image](https://github.com/LawrenceDavy/osticket-prereqs/assets/24421979/50d3fe60-948d-42fc-bfe2-1d799de739b8)
 
